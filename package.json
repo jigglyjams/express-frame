@@ -1,0 +1,24 @@
+{
+  "name": "express-frame",
+  "version": "1.0.0",
+  "description": "simple frame express frame",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "npm run lt & nodemon src/index.ts",
+    "lt": "lt --port 4848"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "localtunnel": "^2.0.2"
+  }
+}
